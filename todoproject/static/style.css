@@ -1,0 +1,19 @@
+.banner{
+  background-color: red;
+  width:100%;
+  height:100px;
+  margin-bottom: 50px;
+}
+.banner-text{
+top:5%;
+left:45%;
+position:absolute;
+transform:transform;
+}
+.message-box {
+            border: 1px solid #ccc;
+            background-color: #f9f9f9;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 5px;
+        }

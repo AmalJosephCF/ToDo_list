@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="message-box">
+<form method="POST">
+    {% csrf_token %}
+    {{f.as_p}}
+    <button type="submit">confirm</button>
+</form>
+</div>
+{% endblock %}
